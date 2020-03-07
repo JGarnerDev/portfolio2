@@ -1,26 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+// Modules
 
-function App() {
+import React, { Component } from "react";
+import { HashRouter, Router } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
+
+// Components
+
+import Intro from "./components/Intro";
+import Nav from "./components/Nav";
+import Projects from "./components/Projects";
+import AboutMe from "./components/AboutMe";
+import SocialLinks from "./components/SocialLinks";
+
+// JSX
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      <Nav />
+      <Intro />
+      <Projects />
+      <AboutMe />
+      <SocialLinks />
+    </React.Fragment>
   );
 }
-
-export default App;

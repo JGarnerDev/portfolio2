@@ -1,0 +1,27 @@
+#Nav {
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  width: 100%;
+  top: 0%;
+  border-bottom: rgb(90, 90, 90) 2px solid;
+  background-color: white;
+
+  /* Just for mockup */
+}
+#logo {
+  width: 25%;
+  height: 100%;
+
+}
+#nav-link-container {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  max-width: 400px;
+  margin-right: 5%;
+}
+.nav-link {
+}

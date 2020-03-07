@@ -1,0 +1,37 @@
+#Intro {
+  flex-direction: column;
+}
+
+.intro-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+
+  word-wrap: break-word;
+
+  /* Just for mockup */
+}
+
+#intro-pic {
+  width: 40%;
+  max-width: 200px;
+  margin-bottom: 2vh;
+  border: rgb(68, 165, 255) 8px solid;
+  border-radius: 50%;
+}
+
+#intro-name {
+  margin: 0;
+}
+
+#intro-desc {
+  margin: 0;
+}
+
+.intro-paragraph {
+    
+  max-width: 530px;
+  margin-bottom: 5vh;
+}
