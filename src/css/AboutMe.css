@@ -1,0 +1,17 @@
+#AboutMe {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+#AboutMe-scroll-anchor {
+  height: 10%;
+  width: 100%;
+ 
+}
+#AboutMe-body {
+    display: flex;
+    align-items: center;
+  height: 90%;
+  
+}

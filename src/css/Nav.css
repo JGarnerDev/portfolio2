@@ -6,7 +6,8 @@
   height: 10vh;
   width: 100%;
   top: 0%;
-  border-bottom: rgb(90, 90, 90) 2px solid;
+  z-index: 1;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
   background-color: white;
 
   /* Just for mockup */

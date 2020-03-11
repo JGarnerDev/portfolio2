@@ -1,8 +1,6 @@
 // Modules
 
-import React, { Component } from "react";
-import { HashRouter, Router } from "react-router-dom";
-import { HashLink as Link } from "react-router-hash-link";
+import React from "react";
 
 // Components
 
@@ -10,7 +8,8 @@ import Intro from "./components/Intro";
 import Nav from "./components/Nav";
 import Projects from "./components/Projects";
 import AboutMe from "./components/AboutMe";
-import SocialLinks from "./components/SocialLinks";
+import Resume from "./components/Resume";
+import Slideshow from "./components/Slideshow";
 
 // JSX
 
@@ -19,9 +18,10 @@ export default function App() {
     <React.Fragment>
       <Nav />
       <Intro />
-      <Projects />
       <AboutMe />
-      <SocialLinks />
+      <Projects />
+      <Resume />
+     
     </React.Fragment>
   );
 }

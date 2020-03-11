@@ -1,11 +1,8 @@
 .major-component {
     display: flex;
-    height: 80vh;
-    width: 95%;
-    margin-top: 5vh;
-    margin-bottom: 10vh;
     
-
+    height: 100vh;
+    z-index: 0;
      /* Just for mockup */
    
 }

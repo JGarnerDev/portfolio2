@@ -1,0 +1,11 @@
+#Resume {
+  position: relative;
+  top: 100vh;
+  flex-direction: column;
+}
+
+#resume-link {
+  position: relative;
+  top: 40vh;
+  font-size: 3em;
+}

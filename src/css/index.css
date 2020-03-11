@@ -2,6 +2,7 @@
 body, #root {
  
   width: 100%;
+  height: auto;
   margin: 0%;
 
   /* All things centered and placed along vertical axis */

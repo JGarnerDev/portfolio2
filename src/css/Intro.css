@@ -1,17 +1,21 @@
 #Intro {
+    
+  position: relative;
+  top: -11vh;
   flex-direction: column;
 }
 
-.intro-container {
+#Intro-scroll-anchor {
+  height: 20%;
+}
+
+#intro-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 50%;
-
+  height: 40%;
   word-wrap: break-word;
-
-  /* Just for mockup */
 }
 
 #intro-pic {
@@ -22,16 +26,35 @@
   border-radius: 50%;
 }
 
-#intro-name {
-  margin: 0;
-}
-
+#intro-name,
 #intro-desc {
   margin: 0;
 }
 
 .intro-paragraph {
-    
   max-width: 530px;
-  margin-bottom: 5vh;
+  margin-bottom: 2vh;
+}
+
+#social-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 35%;
+}
+
+.social-links-row {
+  display: flex;
+  justify-content: space-evenly;
+  height: 40%;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.icon {
+    width: 10%;
+    height: 100%;
+    background-color: red;
 }

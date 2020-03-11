@@ -1,3 +1,16 @@
 #Projects {
-   
+  flex-direction: column;
+  height: auto;
+}
+#Projects-scroll-anchor {
+  
+  width: 100%;
+  background-color: royalblue;
+}
+#Projects-body {
+    position: relative;
+    top: 10vh;
+  height: auto;
+  width: 100%;
+ 
 }
