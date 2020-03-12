@@ -5,7 +5,7 @@ const introText1 =
   "Jeff(rey)'s an organically raised, Montreal-grown web developer with a passion for learning, design, and creating applications that make complicated tasks simple.";
 
 const introText2 =
-  "He was once a professional cook (in case you're hungry), and he is still disproportionately geeky (in case you have any questions about Dostoyevsky, Dungeons & Dragons, or jellyfish). ";
+  "He was once a professional cook (in case you're hungry), and he is still disproportionately geeky (in case you have any questions about Dungeons & Dragons or jellyfish, or need help with your Dostoevsky homework). ";
 
 export default function Intro() {
   return (
@@ -19,7 +19,7 @@ export default function Intro() {
         />
         <h1 id="intro-name" className="text">Jeff Garner</h1>
         <h2 id="intro-desc" className="text">Full-Stack Web Developer</h2>
-        <h3 className="text"> JavaScript - TypeScript - React - Node.js - NoSQL</h3>
+        <h3 className="text">- HTML - CSS - JavaScript - TypeScript - <br></br> - React - Node.js - NoSQL -</h3>
       </div>
       <div id="intro-container">
         <div className="intro-paragraph text">{introText1}</div>

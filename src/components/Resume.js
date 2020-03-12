@@ -5,9 +5,9 @@ import "../css/Resume.css";
 
 export default function Resume() {
   return (
-    <div id="Resume" className="major-component" data-aos="fade-up">
+    <div id="Resume" className="major-component" >
       <div id="Resume-scroll-anchor"></div>
-      <a id="resume-link" href={Pdf} target="_blank">
+      <a id="resume-link" href={Pdf} target="_blank" data-aos="fade-up">
         Here's my resume
       </a>
     </div>

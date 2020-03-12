@@ -3,11 +3,11 @@ import "../css/Contact.css";
 
 export default function Contact() {
   return (
-    <div id="Contact">
+    <div id="Contact" >
       <div id="Contact-scroll-anchor" />
-      <div id="contact-info">
-        <div className="text">J.garner200@gmail.com</div>
-        <div className="text">1-514-867-6074</div>
+      <div id="contact-info" >
+        <div className="text" data-aos="fade-up">J.garner200@gmail.com</div>
+        <div className="text" data-aos="fade-up" data-aos-offset="250">1-514-867-6074</div>
       </div>
     </div>
   );

@@ -1,11 +1,14 @@
 .carousel {
-  max-width: 80vh;
-}
+   width: 100vw !important;
+   max-width: 80vh !important;
 
-.slide-text {
   
 }
 
 .slide {
   background-color: transparent !important;
+  opacity: 0.7;
+  height: 100%;
 }
+
+

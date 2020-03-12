@@ -3,29 +3,46 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 10vh;
+  min-height: 40px;
   width: 100%;
   top: 0%;
   z-index: 1;
-  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
-  background-color: rgb(73, 122, 120);
+  box-shadow: 5px 0px 20px 10px rgba(0, 0, 0, 0.4),
+    inset 0px 0px 8px 4px rgba(0, 0, 0, 0.2), 0px 0px 5px 5px rgba(0, 0, 0, 0.6);
+  background-color: rgb(48, 83, 83);
 
   /* Just for mockup */
 }
 #logo {
-  width: 25%;
-  height: 100%;
-
+  width: 10%;
+  min-width: 60px;
+  height: 80%;
+  outline: solid 1px black;
+  margin-left: 3vw;
+  margin-right: 3vw;
 }
 #nav-link-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 60%;
-  height: 100%;
-  max-width: 400px;
-  margin-right: 5%;
+  flex-grow: 1;
+  min-width: 250px;
+  max-width: 600px;
+  margin-right: 15px;
 }
 .nav-link {
-    font-size: calc(1vh + 2vw);
+  display: flex;
+  justify-content: center;
+  max-height: 30px;
+  margin-left: 15px;
+  flex-grow: 1;
+  font-size: calc(1vh + 1vw);
+  border-radius: 6%;
+  color: rgba(199, 209, 209, 0.835) !important;
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.4);
+  background-color: rgba(60, 77, 77, 0.616);
+}
+.nav-link:hover {
+  color: rgba(160, 167, 167, 0.835) !important;
+  background-color: rgba(50, 68, 68, 0.616);
 }

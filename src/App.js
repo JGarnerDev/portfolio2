@@ -16,7 +16,7 @@ import Contact from "./components/Contact";
 // JSX
 
 export default function App() {
-  AOS.init({duration: 1500, offset: -100});
+  AOS.init({duration: 1500, offset: 150});
   return (
     <React.Fragment>
       <Nav />

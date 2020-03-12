@@ -6,8 +6,8 @@ import "../css/Nav.css";
 export default function Nav() {
   return (
     <div id="Nav">
-      <Link to="Intro-scroll-anchor" smooth={true} duration={1000}>
-        <div id="logo" className="text" >Logo</div>
+      <Link id="logo" to="Intro-scroll-anchor" smooth={true} duration={1000}>
+        <div  className="text" >Logo</div>
       </Link>
       <div id="nav-link-container">
         <Link className="nav-link text" to="AboutMe-scroll-anchor" smooth={true} duration={1000}>

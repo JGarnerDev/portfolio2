@@ -11,9 +11,11 @@ export default class Slideshow extends React.Component {
   }
   slidesJsx = this.props.slides.map(function(slide) {
     return (
-      <div>
-        <img src={slide.image} alt="" data-aos="fade-up"/>
-        <p className="slide-text text" data-aos="fade-up">{slide.text}</p>
+      <div data-aos="fade-up">
+        <img src={slide.image} alt="" />
+        <p className="slide-text text" data-aos="fade-up" data-aos-offset="-50">
+          {slide.text} <a href="">buuuuut</a>
+        </p>
       </div>
     );
   });
@@ -27,6 +29,7 @@ export default class Slideshow extends React.Component {
         infiniteLoop={true}
         swipeable={true}
         emulateTouch={true}
+        transitionTime={700}
       >
         {this.slidesJsx}
       </Carousel>
