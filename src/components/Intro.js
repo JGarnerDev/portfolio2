@@ -17,13 +17,13 @@ export default function Intro() {
           src="https://i.imgur.com/kmgKitR.png"
           alt="Jeff Garner"
         />
-        <h1 id="intro-name">Jeff Garner</h1>
-        <h2 id="intro-desc">Full-Stack Web Developer</h2>
-        <h3> JavaScript - TypeScript - React - Node.js - NoSQL</h3>
+        <h1 id="intro-name" className="text">Jeff Garner</h1>
+        <h2 id="intro-desc" className="text">Full-Stack Web Developer</h2>
+        <h3 className="text"> JavaScript - TypeScript - React - Node.js - NoSQL</h3>
       </div>
       <div id="intro-container">
-        <div className="intro-paragraph">{introText1}</div>
-        <div className="intro-paragraph">{introText2}</div>
+        <div className="intro-paragraph text">{introText1}</div>
+        <div className="intro-paragraph text">{introText2}</div>
       </div>
       <div id="social-links">
         <div className="social-links-row">

@@ -1,12 +1,13 @@
 #Intro {
     
   position: relative;
-  top: -11vh;
+  top: -10vh;
   flex-direction: column;
 }
 
 #Intro-scroll-anchor {
-  height: 20%;
+  height: 20vh;
+  margin-bottom: 5vh;
 }
 
 #intro-container {
@@ -22,7 +23,7 @@
   width: 40%;
   max-width: 200px;
   margin-bottom: 2vh;
-  border: rgb(68, 165, 255) 8px solid;
+  border: rgb(73, 122, 120) 8px solid;
   border-radius: 50%;
 }
 

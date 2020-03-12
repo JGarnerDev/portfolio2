@@ -12,5 +12,9 @@ body, #root {
 
   /* Just for mockup */
   text-align: center;
-  
+  background-color: black;
+}
+
+.text {
+    color: white;
 }

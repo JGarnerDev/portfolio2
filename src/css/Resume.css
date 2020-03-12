@@ -2,10 +2,17 @@
   position: relative;
   top: 100vh;
   flex-direction: column;
+  margin-bottom: 25vh;
+  
 }
 
 #resume-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
-  top: 40vh;
+  top: 10vh;
   font-size: 3em;
+  color: white;
+  min-height: 100vh 
 }

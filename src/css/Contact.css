@@ -1,0 +1,15 @@
+#Contact {
+  position: relative;
+  top: 120vh;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+#contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 40vh;
+  font-size: 1.5em;
+}
