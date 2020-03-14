@@ -23,6 +23,7 @@
   width: 35%;
   max-width: 200px;
   border: rgba(202, 166, 34, 0.8) 8px solid;
+  box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.2);
   border-radius: 50%;
 }
 
