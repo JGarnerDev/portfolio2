@@ -1,9 +1,16 @@
 #Resume {
   position: relative;
-  top: 100vh;
+  top: 10vh;
   flex-direction: column;
-  margin-bottom: 25vh;
-  
+  justify-content: space-around;
+  align-items: center;
+
+  max-height: 80vh;
+}
+
+#thanks {
+    margin-top: 20vh;
+  font-size: 1.2em;
 }
 
 #resume-link {
@@ -12,5 +19,4 @@
   align-items: center;
   font-size: 2.5em;
   color: white;
-  min-height: 100vh 
 }

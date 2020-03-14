@@ -11,28 +11,28 @@ export default class Slideshow extends React.Component {
   }
   slidesJsx = this.props.slides.map(function(slide) {
     return (
-      <div data-aos="fade-up">
+      <div>
         <img src={slide.image} alt="" />
-        <p className="slide-text text" data-aos="fade-up" data-aos-offset="-50">
-          {slide.text} <a href="">buuuuut</a>
-        </p>
+        <p className="slide-text text">{slide.text}</p>
       </div>
     );
   });
 
   render() {
     return (
-      <Carousel
-        showThumbs={false}
-        showStatus={false}
-        showIndicators={false}
-        infiniteLoop={true}
-        swipeable={true}
-        emulateTouch={true}
-        transitionTime={700}
-      >
-        {this.slidesJsx}
-      </Carousel>
+      <div data-aos="fade-up">
+        <Carousel
+          showThumbs={false}
+          showStatus={false}
+          showIndicators={false}
+          infiniteLoop={true}
+          swipeable={true}
+          emulateTouch={true}
+          transitionTime={700}
+        >
+          {this.slidesJsx}
+        </Carousel>
+      </div>
     );
   }
 }
