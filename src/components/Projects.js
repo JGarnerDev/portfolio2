@@ -60,7 +60,7 @@ export default function Projects() {
           <img className="downArrow" id="downArrow4" src={downArrow} alt="" />
         </Link>
         <h2 className="text project-category" data-aos="fade-up">
-          TypeScript
+          React
         </h2>
         <Slideshow slides={jsProjectSlides} />
         <Link
@@ -73,7 +73,7 @@ export default function Projects() {
           <img className="downArrow" id="downArrow5" src={downArrow} alt="" />
         </Link>
         <h2 className="text project-category" data-aos="fade-up">
-          TypeScript
+          Node.js
         </h2>
         <Slideshow slides={jsProjectSlides} />
         <Link
@@ -86,9 +86,18 @@ export default function Projects() {
           <img className="downArrow" id="downArrow6" src={downArrow} alt="" />
         </Link>
         <h2 className="text project-category" data-aos="fade-up">
-          TypeScript
+          NoSQL
         </h2>
         <Slideshow slides={jsProjectSlides} />
+        <Link
+          to="Resume-scroll-anchor"
+          smooth={true}
+          duration={1000}
+          data-aos="fade-up"
+          data-aos-offset="-00"
+        >
+          <img className="downArrow" id="downArrow3" src={downArrow} alt="" />
+        </Link>
       </div>
     </div>
   );

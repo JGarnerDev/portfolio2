@@ -42,7 +42,7 @@ export default function Intro() {
         <div className="social-links-row">
           <a
             className="icon-container"
-            href="http://www.google.com"
+            href="https://www.codewars.com/users/ElJeffe"
             target="_blank"
           >
             <img className="icon" src={codewarsLogo} />
@@ -50,7 +50,7 @@ export default function Intro() {
           </a>
           <a
             className="icon-container"
-            href="http://www.google.com"
+            href="https://www.linkedin.com/in/jeffrey-garner-882851104/"
             target="_blank"
           >
             <img className="icon" src={linkedinLogo} />
@@ -58,7 +58,7 @@ export default function Intro() {
           </a>
           <a
             className="icon-container"
-            href="http://www.google.com"
+            href="https://github.com/Jeffersonchive"
             target="_blank"
           >
             <img className="icon" src={githubLogo} />

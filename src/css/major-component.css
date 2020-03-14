@@ -1,7 +1,6 @@
 .major-component {
     display: flex;
     height: 100vh;
-    z-index: 0;
+    z-index: 1;
      /* Just for mockup */
-   
 }

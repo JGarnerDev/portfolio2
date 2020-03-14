@@ -1,11 +1,12 @@
 #Projects {
   flex-direction: column;
-
   height: auto;
+  overflow: hidden;
+  width: 98vw;
+  padding-bottom: 20vh;
 }
 #Projects-scroll-anchor {
-    height: 2vh;
-  width: 100%;
+  height: 3vh;
 }
 #Projects-body {
   display: flex;
@@ -18,11 +19,12 @@
 }
 
 #projects-title {
-    font-size: 3em;
-    margin: 0;
+  font-size: 3em;
+  margin: 0;
 }
 
 .project-category {
-    margin-top: 4vh;
+  margin: 0;
+  margin-top: 4vh;
+  margin-bottom: 1vh;
 }
-

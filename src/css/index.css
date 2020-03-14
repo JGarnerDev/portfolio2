@@ -22,13 +22,13 @@ body, #root {
 
 .downArrow {
     position: relative;
-    margin-top: 1.5vh;
+    margin-top: 3vh;
+    z-index: 0;
     -webkit-animation: pulsate-bck 1s ease-in-out infinite both;
 	        animation: pulsate-bck 1s ease-in-out infinite both;
 }
 
-#downArrow2 {
-}
+
 
 @-webkit-keyframes pulsate-bck {
     0% {

@@ -3,6 +3,7 @@
   top: -7vh;
   flex-direction: column;
   justify-content: space-around;
+  
 }
 
 #Intro-scroll-anchor {
@@ -19,9 +20,9 @@
 }
 
 #intro-pic {
-  width: 40%;
+  width: 35%;
   max-width: 200px;
-  border: rgb(136, 114, 71) 8px solid;
+  border: rgba(202, 166, 34, 0.8) 8px solid;
   border-radius: 50%;
 }
 
@@ -37,14 +38,15 @@
 
 .intro-paragraph {
   max-width: 530px;
-  margin-bottom: 1.5vh;
+  margin-top: 1vh;
+  margin-bottom: 0.5vh;
 }
 
 #social-links {
   display: flex;
   flex-direction: column;
   position: relative;
-  top: 2vh;
+  top: 3vh;
   justify-content: space-around;
   align-items: center;
   width: 100%;

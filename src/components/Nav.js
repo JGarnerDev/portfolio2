@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 
 import "../css/Nav.css";
 
-let personalLogo = require("../images/logos/personalLogo.png");
+let personalLogo = require("../images/logos/personalLogo9.png");
 
 export default function Nav() {
   return (
@@ -14,7 +14,7 @@ export default function Nav() {
         smooth={true}
         duration={1000}
       >
-        <img id="logo" src={personalLogo} alt=""/>
+        <img id="logo" src={personalLogo} alt="" />
       </Link>
       <div id="nav-link-container">
         <Link
