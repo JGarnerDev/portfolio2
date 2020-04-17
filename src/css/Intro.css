@@ -3,6 +3,7 @@
 	flex-direction: column;
 	justify-content: space-around;
 	top: -4vh;
+	max-height: 90vh;
 }
 
 #Intro-scroll-anchor {
