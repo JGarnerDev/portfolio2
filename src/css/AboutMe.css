@@ -3,7 +3,8 @@
 	justify-content: center;
 	align-items: center;
 	width: 100%;
-	overflow: hidden;
+height: 100vh;
+	overflow-x: hidden;
 }
 
 #AboutMe-scroll-anchor {
@@ -15,6 +16,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+
 }
 
 #AboutMe-title {

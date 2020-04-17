@@ -12,7 +12,7 @@ let aboutMeSlides = [
 	{
 		image: require("../images/1.png"),
 		text:
-			"ASSblablablA SSblabla blASSblablab lASSblabla blASSblabla blASSbla blabl ASSblabl ablASS blablablAS SblablablASS blablablASS blablablASSblab lablASSbla blablASSbla blablASSblablablASS blablablASSbl ablablASSbl ablablASSblabla blASSblablabl",
+			"ASSblablablA SSblabla blASSblablab lASSblabla blASSblabla ASSblablablA SSblabla blASSblablab lASSblabla blASSblabla  ",
 	},
 	{
 		image: require("../images/2.png"),

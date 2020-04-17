@@ -1,6 +1,7 @@
 #Projects {
   flex-direction: column;
   height: auto;
+
   overflow: hidden;
   width: 100vw;
   padding-bottom: 20vh;
@@ -15,7 +16,7 @@
   justify-content: center;
   align-items: center;
   top: 3vh;
-  height: auto;
+  
 }
 
 #projects-title {
