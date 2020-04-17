@@ -28,9 +28,9 @@
 	justify-content: flex-end;
 	align-items: center;
 	height: 100%;
-	width: 70%;
-	max-width: 450px;
-	font-size: calc(1vh + 0.5vw);
+	width: 100%;
+	max-width: 600px;
+	font-size: calc(1vh + 1vw);
 }
 
 .nav-link {
