@@ -1,22 +1,22 @@
 #Resume {
-  position: relative;
-  top: 10vh;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
- 
-  max-height: 80vh;
+	position: relative;
+	top: 10vh;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+
+	max-height: 80vh;
 }
 
 #thanks {
-    margin-top: 20vh;
-  font-size: 1.2em;
+	margin-top: 20vh;
+	font-size: 1.2em;
 }
 
 #resume-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 2.5em;
-  color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2em;
+	color: white;
 }
