@@ -1,62 +1,65 @@
-
-body, #root {
- 
+body,
+#root {
   width: 100% !important;
-  height: auto;
-  margin: 0%;
- 
-  /* All things centered and placed along vertical axis */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  
+	height: auto;
+	margin: 0%;
 
-  /* Just for mockup */
-  text-align: center;
-  background-color: rgb(35, 61, 65);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	text-align: center;
+	fonts-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	background-color: rgb(35, 61, 65);
+	background-image: url("../images/background-texture.png");
+}
+
+body::-webkit-scrollbar {
+	display: none;
 }
 
 .text {
-    color: white;
-    opacity: 0.9;
-    z-index: 3;
+	color: white;
+	opacity: 0.9;
+	z-index: 3;
 }
 
 .downArrow {
-    position: relative;
-    margin-top: 3vh;
-    z-index: 0;
-    -webkit-animation: pulsate-bck 1s ease-in-out infinite both;
-	        animation: pulsate-bck 1s ease-in-out infinite both;
+	position: relative;
+	margin-top: 3vh;
+	z-index: 0;
+	-webkit-animation: pulsate-bck 1s ease-in-out infinite both;
+	animation: pulsate-bck 1s ease-in-out infinite both;
 }
 
-
-
 @-webkit-keyframes pulsate-bck {
-    0% {
-      -webkit-transform: scale(1);
-              transform: scale(1);
-    }
-    50% {
-      -webkit-transform: scale(0.9);
-              transform: scale(0.9);
-    }
-    100% {
-      -webkit-transform: scale(1);
-              transform: scale(1);
-    }
-  }
-  @keyframes pulsate-bck {
-    0% {
-      -webkit-transform: scale(1);
-              transform: scale(1);
-    }
-    50% {
-      -webkit-transform: scale(0.9);
-              transform: scale(0.9);
-    }
-    100% {
-      -webkit-transform: scale(1);
-              transform: scale(1);
-    }
-  }
-  
+	0% {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
+	50% {
+		-webkit-transform: scale(0.9);
+		transform: scale(0.9);
+	}
+	100% {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
+}
+@keyframes pulsate-bck {
+	0% {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
+	50% {
+		-webkit-transform: scale(0.9);
+		transform: scale(0.9);
+	}
+	100% {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
+}

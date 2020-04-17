@@ -1,23 +1,22 @@
 #Contact {
-  position: relative;
-  top: 30vh;
-  display: flex;
-  align-items: center;
-  height: 100vh;
-  margin-bottom: 50vh;
-  
+	position: relative;
+	top: 30vh;
+	display: flex;
+	align-items: center;
+	height: 100vh;
+	margin-bottom: 50vh;
+	z-index: 1;
 }
 
 #Contact-scroll-anchor {
-    position: relative;
-    top: -50vh
+	position: relative;
+	top: -50vh;
 }
 
 #contact-info {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  height: 20vh;
-  font-size: 1.5em;
-  
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 20vh;
+	font-size: 1.5em;
 }
