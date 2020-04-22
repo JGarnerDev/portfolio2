@@ -31,9 +31,9 @@ export default function AboutMe() {
 		<div id="AboutMe" classname="major-component">
 			<div id="AboutMe-scroll-anchor" />
 			<div id="AboutMe-body" data-aos="fade-up">
-				<h1 id="AboutMe-title" className="text">
+				<h2 id="AboutMe-title" className="text">
 					About Me
-				</h1>
+				</h2>
 				<Slideshow slides={aboutMeSlides} />
 			</div>
 		</div>
