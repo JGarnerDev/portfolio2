@@ -11,17 +11,100 @@ let jsProjectSlides = [
 	{
 		image: require("../images/absentphoto.png"),
 		text:
-			"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate quasi molestias vitae veritatis libero nisi beatae quos laborum sint qui ducimus modi voluptatum laboriosam incidunt iste vel corrupti, veniam odit."
+			"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate quasi molestias vitae veritatis libero nisi beatae quos laborum sint qui ducimus modi voluptatum laboriosam incidunt iste vel corrupti, veniam odit.",
+		link: null
 	},
 	{
 		image: require("../images/absentphoto.png"),
 		text:
-			"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate quasi molestias vitae veritatis libero nisi beatae quos laborum sint qui ducimus modi voluptatum laboriosam incidunt iste vel corrupti, veniam odit."
+			"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate quasi molestias vitae veritatis libero nisi beatae quos laborum sint qui ducimus modi voluptatum laboriosam incidunt iste vel corrupti, veniam odit.",
+		link: null
 	},
 	{
 		image: require("../images/absentphoto.png"),
 		text:
-			"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate quasi molestias vitae veritatis libero nisi beatae quos laborum sint qui ducimus modi voluptatum laboriosam incidunt iste vel corrupti, veniam odit."
+			"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate quasi molestias vitae veritatis libero nisi beatae quos laborum sint qui ducimus modi voluptatum laboriosam incidunt iste vel corrupti, veniam odit.",
+		link: null
+	}
+];
+let tsProjectSlides = [
+	{
+		image: require("../images/absentphoto.png"),
+		text:
+			"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate quasi molestias vitae veritatis libero nisi beatae quos laborum sint qui ducimus modi voluptatum laboriosam incidunt iste vel corrupti, veniam odit.",
+		link: null
+	},
+	{
+		image: require("../images/absentphoto.png"),
+		text:
+			"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate quasi molestias vitae veritatis libero nisi beatae quos laborum sint qui ducimus modi voluptatum laboriosam incidunt iste vel corrupti, veniam odit.",
+		link: null
+	},
+	{
+		image: require("../images/absentphoto.png"),
+		text:
+			"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate quasi molestias vitae veritatis libero nisi beatae quos laborum sint qui ducimus modi voluptatum laboriosam incidunt iste vel corrupti, veniam odit.",
+		link: null
+	}
+];
+let reactProjectSlides = [
+	{
+		image: require("../images/absentphoto.png"),
+		text:
+			"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate quasi molestias vitae veritatis libero nisi beatae quos laborum sint qui ducimus modi voluptatum laboriosam incidunt iste vel corrupti, veniam odit.",
+		link: null
+	},
+	{
+		image: require("../images/absentphoto.png"),
+		text:
+			"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate quasi molestias vitae veritatis libero nisi beatae quos laborum sint qui ducimus modi voluptatum laboriosam incidunt iste vel corrupti, veniam odit.",
+		link: null
+	},
+	{
+		image: require("../images/absentphoto.png"),
+		text:
+			"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate quasi molestias vitae veritatis libero nisi beatae quos laborum sint qui ducimus modi voluptatum laboriosam incidunt iste vel corrupti, veniam odit.",
+		link: null
+	}
+];
+let phpProjectSlides = [
+	{
+		image: require("../images/projects/WordPressCustomTheme1.png"),
+		text:
+			"My first theme for WordPress! Not only did it familiarize me with PHP, but got me to be appreciative of CMS's. Supports widgets and several post types, and makes for a simple but effective blog structure.",
+		link: "https://github.com/Jeffersonchive/BearWatch-WP-Theme"
+	},
+	{
+		image: require("../images/absentphoto.png"),
+		text:
+			"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate quasi molestias vitae veritatis libero nisi beatae quos laborum sint qui ducimus modi voluptatum laboriosam incidunt iste vel corrupti, veniam odit.",
+		link: null
+	},
+	{
+		image: require("../images/absentphoto.png"),
+		text:
+			"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate quasi molestias vitae veritatis libero nisi beatae quos laborum sint qui ducimus modi voluptatum laboriosam incidunt iste vel corrupti, veniam odit.",
+		link: null
+	}
+];
+let sqlProjectSlides = [
+	{
+		image: require("../images/absentphoto.png"),
+		text:
+			"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate quasi molestias vitae veritatis libero nisi beatae quos laborum sint qui ducimus modi voluptatum laboriosam incidunt iste vel corrupti, veniam odit.",
+		link: null
+	},
+	{
+		image: require("../images/absentphoto.png"),
+		text:
+			"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate quasi molestias vitae veritatis libero nisi beatae quos laborum sint qui ducimus modi voluptatum laboriosam incidunt iste vel corrupti, veniam odit.",
+		link: null
+	},
+	{
+		image: require("../images/absentphoto.png"),
+		text:
+			"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate quasi molestias vitae veritatis libero nisi beatae quos laborum sint qui ducimus modi voluptatum laboriosam incidunt iste vel corrupti, veniam odit.",
+		link: null
 	}
 ];
 
@@ -37,53 +120,69 @@ export default function Projects() {
 					smooth={true}
 					duration={1000}
 					data-aos="fade-up"
-					data-aos-offset="-100"
+					data-aos-offset="100"
 				>
 					<img className="downArrow" id="downArrow3" src={downArrow} alt="" />
 				</Link>
-				<h2 className="text project-category" data-aos="fade-up">
+				<h2
+					className="text project-category"
+					data-aos="fade-up"
+					data-aos-offset="200"
+				>
 					TypeScript
 				</h2>
-				<Slideshow slides={jsProjectSlides} />
+				<Slideshow slides={tsProjectSlides} />
 				<Link
 					to="downArrow4"
 					smooth={true}
 					duration={1000}
 					data-aos="fade-up"
-					data-aos-offset="-100"
+					data-aos-offset="100"
 				>
 					<img className="downArrow" id="downArrow4" src={downArrow} alt="" />
 				</Link>
-				<h2 className="text project-category" data-aos="fade-up">
+				<h2
+					className="text project-category"
+					data-aos="fade-up"
+					data-aos-offset="200"
+				>
 					React
 				</h2>
-				<Slideshow slides={jsProjectSlides} />
+				<Slideshow slides={reactProjectSlides} />
 				<Link
 					to="downArrow5"
 					smooth={true}
 					duration={1000}
 					data-aos="fade-up"
-					data-aos-offset="-100"
+					data-aos-offset="100"
 				>
 					<img className="downArrow" id="downArrow5" src={downArrow} alt="" />
 				</Link>
-				<h2 className="text project-category" data-aos="fade-up">
+				<h2
+					className="text project-category"
+					data-aos="fade-up"
+					data-aos-offset="200"
+				>
 					PHP
 				</h2>
-				<Slideshow slides={jsProjectSlides} />
+				<Slideshow slides={phpProjectSlides} />
 				<Link
 					to="downArrow6"
 					smooth={true}
 					duration={1000}
 					data-aos="fade-up"
-					data-aos-offset="-100"
+					data-aos-offset="100"
 				>
 					<img className="downArrow" id="downArrow6" src={downArrow} alt="" />
 				</Link>
-				<h2 className="text project-category" data-aos="fade-up">
-					NoSQL
+				<h2
+					className="text project-category"
+					data-aos="fade-up"
+					data-aos-offset="200"
+				>
+					SQL
 				</h2>
-				<Slideshow slides={jsProjectSlides} />
+				<Slideshow slides={sqlProjectSlides} />
 			</div>
 		</div>
 	);

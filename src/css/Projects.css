@@ -29,6 +29,11 @@
     margin-bottom: 1vh;
 }
 
+.project-link {
+    color: white;
+    font-size: 2em;
+}
+
 #downArrow3,
 #downArrow4,
 #downArrow5,

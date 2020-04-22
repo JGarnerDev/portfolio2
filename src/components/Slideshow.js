@@ -10,12 +10,25 @@ export default class Slideshow extends React.Component {
 		};
 	}
 	slidesJsx = this.props.slides.map(function(slide) {
-		return (
-			<div>
-				<img src={slide.image} alt="" />
-				<p className="slide-text text">{slide.text}</p>
-			</div>
-		);
+		if (slide.link) {
+			return (
+				<div>
+					<img src={slide.image} alt="" />
+					<p className="slide-text text">{slide.text}</p>
+					<br />
+					<a className="project-link" href={slide.link}>
+						Here's the code!
+					</a>
+				</div>
+			);
+		} else {
+			return (
+				<div>
+					<img src={slide.image} alt="" />
+					<p className="slide-text text">{slide.text}</p>
+				</div>
+			);
+		}
 	});
 
 	render() {
