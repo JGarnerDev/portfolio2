@@ -43,7 +43,7 @@
     max-width: 700px;
     margin-top: 1vh;
     margin-bottom: 0.5vh;
-    font-size: calc(1.2vh + 1vw);
+    font-size: calc(1vh + 1vw);
 }
 
 #social-links {
@@ -80,5 +80,5 @@
 
 #downArrow1 {
     position: relative;
-    top: -5vh;
+    top: -2vh;
 }

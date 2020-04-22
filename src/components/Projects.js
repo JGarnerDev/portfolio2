@@ -37,7 +37,7 @@ export default function Projects() {
 					smooth={true}
 					duration={1000}
 					data-aos="fade-up"
-					data-aos-offset="-50"
+					data-aos-offset="-100"
 				>
 					<img className="downArrow" id="downArrow3" src={downArrow} alt="" />
 				</Link>
@@ -50,7 +50,7 @@ export default function Projects() {
 					smooth={true}
 					duration={1000}
 					data-aos="fade-up"
-					data-aos-offset="-50"
+					data-aos-offset="-100"
 				>
 					<img className="downArrow" id="downArrow4" src={downArrow} alt="" />
 				</Link>
@@ -63,7 +63,7 @@ export default function Projects() {
 					smooth={true}
 					duration={1000}
 					data-aos="fade-up"
-					data-aos-offset="-50"
+					data-aos-offset="-100"
 				>
 					<img className="downArrow" id="downArrow5" src={downArrow} alt="" />
 				</Link>
