@@ -32,16 +32,6 @@ export default function App() {
 
 			<AboutMe />
 
-			<Link
-				to="Projects-scroll-anchor"
-				smooth={true}
-				duration={1000}
-				data-aos="fade-up"
-				data-aos-offset="-50"
-			>
-				<img className="downArrow" id="downArrow2" src={downArrow} alt="" />
-			</Link>
-
 			<Projects />
 
 			<Link

@@ -1,11 +1,9 @@
 import React from "react";
 import { Link } from "react-scroll";
-
 import "../css/AboutMe.css";
 import "../css/Slideshow.css";
 
 import Slideshow from "./Slideshow";
-
 let downArrow = require("../images/downArrow.png");
 
 let aboutMeSlides = [
@@ -35,6 +33,15 @@ export default function AboutMe() {
 					About Me
 				</h2>
 				<Slideshow slides={aboutMeSlides} />
+				<Link
+					to="Projects-scroll-anchor"
+					smooth={true}
+					duration={1000}
+					data-aos="fade-up"
+					data-aos-offset="-50"
+				>
+					<img className="downArrow" id="downArrow2" src={downArrow} alt="" />
+				</Link>
 			</div>
 		</div>
 	);

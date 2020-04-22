@@ -33,7 +33,7 @@ body::-webkit-scrollbar {
 #downArrow7 {
     position: relative;
     top: -10vh;
-    z-index: 5;
+    z-index: 2;
 }
 
 @-webkit-keyframes pulsate-bck {
