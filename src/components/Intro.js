@@ -5,7 +5,6 @@ import "../css/Intro.css";
 let codewarsLogo = require("../images/logos/codewarsLogo.png");
 let linkedinLogo = require("../images/logos/linkedInLogo.png");
 let githubLogo = require("../images/logos/githubLogo.png");
-let downArrow = require("../images/downArrow.png");
 
 const introText1 =
 	"Jeff's an organically raised, Montreal-grown web developer with a passion for learning, design, and creating applications.";
@@ -66,9 +65,6 @@ export default function Intro() {
 					</a>
 				</div>
 			</div>
-			<Link to="AboutMe-scroll-anchor" smooth={true} duration={1000}>
-				<img className="downArrow" src={downArrow} alt="" />
-			</Link>
 		</div>
 	);
 }

@@ -9,27 +9,21 @@ let downArrow = require("../images/downArrow.png");
 
 let jsProjectSlides = [
 	{
-		image: require("../images/1.png"),
+		image: require("../images/absentphoto.png"),
 		text:
-			"ASSblablablA SSblabla blASSblablab lASSblabla blASSblabla ASSblablablA SSblabla blASSblablab lASSblabla blASSblabla  ",
+			"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate quasi molestias vitae veritatis libero nisi beatae quos laborum sint qui ducimus modi voluptatum laboriosam incidunt iste vel corrupti, veniam odit."
 	},
 	{
-		image: require("../images/1.png"),
+		image: require("../images/absentphoto.png"),
 		text:
-			"ASSblablablA SSblabla blASSblablab lASSblabla blASSblabla ASSblablablA SSblabla blASSblablab lASSblabla blASSblabla  ",
+			"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate quasi molestias vitae veritatis libero nisi beatae quos laborum sint qui ducimus modi voluptatum laboriosam incidunt iste vel corrupti, veniam odit."
 	},
 	{
-		image: require("../images/1.png"),
+		image: require("../images/absentphoto.png"),
 		text:
-			"ASSblablablA SSblabla blASSblablab lASSblabla blASSblabla ASSblablablA SSblabla blASSblablab lASSblabla blASSblabla  ",
-	},
+			"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate quasi molestias vitae veritatis libero nisi beatae quos laborum sint qui ducimus modi voluptatum laboriosam incidunt iste vel corrupti, veniam odit."
+	}
 ];
-let tsProjectSlides = [
-	require("../images/1.png"),
-	require("../images/2.png"),
-	require("../images/3.png"),
-];
-let otherProjetSlides = [];
 
 export default function Projects() {
 	return (
@@ -74,7 +68,7 @@ export default function Projects() {
 					<img className="downArrow" id="downArrow5" src={downArrow} alt="" />
 				</Link>
 				<h2 className="text project-category" data-aos="fade-up">
-					Node.js
+					PHP
 				</h2>
 				<Slideshow slides={jsProjectSlides} />
 				<Link
@@ -90,15 +84,6 @@ export default function Projects() {
 					NoSQL
 				</h2>
 				<Slideshow slides={jsProjectSlides} />
-				<Link
-					to="Resume-scroll-anchor"
-					smooth={true}
-					duration={1000}
-					data-aos="fade-up"
-					data-aos-offset="-50"
-				>
-					<img className="downArrow" id="downArrow3" src={downArrow} alt="" />
-				</Link>
 			</div>
 		</div>
 	);
