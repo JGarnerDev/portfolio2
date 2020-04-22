@@ -29,8 +29,8 @@ export default function Intro() {
 					Full-Stack Web Developer
 				</h2>
 				<h3 id="intro-subdesc" className="text">
-					- HTML - CSS - JavaScript - TypeScript - <br></br> - React - Node.js -
-					NoSQL -
+					- HTML - CSS - JavaScript - TypeScript - <br></br> - React - PHP - SQL
+					-
 				</h3>
 			</div>
 			<div className="intro-container">

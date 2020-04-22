@@ -26,5 +26,6 @@
 
 #downArrow2 {
     position: relative;
+    top: -8vh;
     margin-top: 3vh;
 }
