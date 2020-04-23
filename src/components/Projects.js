@@ -37,7 +37,7 @@ let jsProjectSlides = [
 let tsProjectSlides = [
 	{
 		title: "DoStuff",
-		image: require("../images/absentphoto.png"),
+		image: require("../images/projects/dostuff.png"),
 		text: "A todo list made with Typescript and React",
 		link: "https://dostuff.netlify.app/",
 		gitlink: "https://github.com/Jeffersonchive/TSREACT-todo-list"
@@ -87,7 +87,7 @@ let reactProjectSlides = [
 ];
 let phpProjectSlides = [
 	{
-		title: "WordPress Theme #1",
+		title: "BearWatch WordPress Theme",
 		image: require("../images/projects/WordPressCustomTheme1.png"),
 		text:
 			"My first theme for WordPress! Not only did it familiarize me with PHP, but got me to be appreciative of CMS's. Supports widgets and several post types, and makes for a simple but effective blog structure.",
