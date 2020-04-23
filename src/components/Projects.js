@@ -36,12 +36,11 @@ let jsProjectSlides = [
 ];
 let tsProjectSlides = [
 	{
-		title: null,
+		title: "DoStuff",
 		image: require("../images/absentphoto.png"),
-		text:
-			"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate quasi molestias vitae veritatis libero nisi beatae quos laborum sint qui ducimus modi voluptatum laboriosam incidunt iste vel corrupti, veniam odit.",
-		link: null,
-		gitlink: null
+		text: "A todo list made with Typescript and React",
+		link: "https://dostuff.netlify.app/",
+		gitlink: "https://github.com/Jeffersonchive/TSREACT-todo-list"
 	},
 	{
 		title: null,
