@@ -1,11 +1,13 @@
+.aos-init {}
+
 .carousel {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     overflow: visible !important;
-    max-width: calc(40vh + 10vw);
-    min-height: 60vh;
+    max-width: calc(40vh + 5vw);
+    min-height: 55vh;
 }
 
 .carousel-slider {
@@ -14,8 +16,7 @@
     justify-content: center;
     align-items: center;
     overflow: visible !important;
-    max-width: calc(40vh + 10vw);
-    min-height: 60vh;
+    height: auto;
 }
 
 .slide {
@@ -34,29 +35,35 @@
 }
 
 .slide img {
-    margin-top: 10px;
-    max-width: 60%;
+    margin: 20px 0px 0px 0px;
+    max-width: 150px;
 }
 
 .box {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    padding-bottom: 20px;
+    min-height: 400px;
+    max-height: 700px;
 }
 
 #AboutMe .slide img {
-    max-width: 100%;
+    max-width: 90%;
 }
 
 .slide-title {
-    margin: 0.5vh;
+    font-size: calc(2vw + 1.5vh);
+    padding-bottom: 5px;
+    margin: 5px 10px 10px 5px;
 }
 
 .slide-text {
     min-height: 30px;
     width: 90%;
-    font-size: calc(2vh + 0.2vw);
-    margin: 0.5vh;
+    font-size: calc(1.5vh + 0.2vw);
+    margin: 5px;
 }
 
 .selected {
@@ -67,6 +74,7 @@
 
 .slider-wrapper {
     overflow: visible !important;
+    margin: 0 !important;
 }
 
 .control-prev {

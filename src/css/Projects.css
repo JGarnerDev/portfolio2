@@ -2,7 +2,6 @@
     flex-direction: column;
     height: auto;
     width: 100vw;
-    margin-top: -5vh;
     padding-bottom: 20vh;
     overflow: hidden;
 }
@@ -20,14 +19,8 @@
     top: 3vh;
 }
 
-.slide-title {
-    font-size: calc(2vw + 2vh);
-    padding-bottom: 5px;
-}
-
 .project-category {
-    margin-top: 4vh;
-    margin-bottom: 2vh;
+    margin: 10px 0px 1vw 0px;
     font-size: calc(2.5vh + 2.2vw);
 }
 
@@ -35,12 +28,12 @@
 .project-link {
     position: relative;
     color: white;
-    font-size: calc(1vw + 1vh);
+    font-size: 1em;
     text-decoration: none;
     margin: 0;
     top: -15px;
     background: rgba(0, 0, 0, 0.144);
-    width: 40%;
+    width: 50%;
     border: 2px solid black;
     border-radius: 5%;
 }
@@ -59,4 +52,5 @@
 #downArrow5,
 #downArrow6 {
     position: relative;
+    margin: 10px 0 50px 0;
 }

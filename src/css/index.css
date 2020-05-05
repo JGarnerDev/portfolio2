@@ -24,7 +24,7 @@ body::-webkit-scrollbar {
 }
 
 .downArrow {
-    position: relative;
+    margin-top: 10px;
     z-index: 0;
     -webkit-animation: pulsate-bck 1s ease-in-out infinite both;
     animation: pulsate-bck 1s ease-in-out infinite both;
@@ -32,7 +32,7 @@ body::-webkit-scrollbar {
 
 #downArrow7 {
     position: relative;
-    top: -12vh;
+    top: -50px;
     z-index: 2;
 }
 
