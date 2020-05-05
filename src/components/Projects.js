@@ -38,7 +38,8 @@ let tsProjectSlides = [
   {
     title: 'DoStuff',
     image: require('../images/projects/dostuff.png'),
-    text: 'A todo list made with Typescript and React',
+    text:
+      "A todo list made with Typescript and React! While doing basic operations with Typescript has been relatively easy, state management and making components has certainly been a challenge. It's definitely one of my goals to get much better at it. ",
     link: 'https://dostuff.netlify.app/',
     gitlink: 'https://github.com/Jeffersonchive/TSREACT-todo-list'
   },
@@ -63,9 +64,10 @@ let reactProjectSlides = [
   {
     title: 'NBA-News',
     image: require('../images/projects/NBA-News.png'),
-    text: '',
+    text:
+      'A single-page React application made with the help of Tutsgalaxy Tutorials. Definitely helped me practice my role as a full-stack developer. Involves modular CSS, plenty of templating and refactoring of my earlier practices, and firebase to store articles, posts, and user authentication!',
     link: 'https://nbaproj-45f6c.web.app/',
-    gitlink: null
+    gitlink: 'https://github.com/Jeffersonchive/NBA-News-Tutorial'
   },
   {
     title: null,
@@ -89,7 +91,7 @@ let phpProjectSlides = [
     title: 'BearWatch WordPress Theme',
     image: require('../images/projects/WordPressCustomTheme1.png'),
     text:
-      "My first theme for WordPress! Not only did it familiarize me with PHP, but got me to be appreciative of CMS's. Supports widgets and several post types, and makes for a simple but effective blog structure.",
+      "My first theme for WordPress! Made with the help of Udemy Tutorials. Not only did it familiarize me with PHP, but got me to be appreciative of CMS's. Supports widgets and several post types, and makes for a simple but effective blog structure.",
     link: null,
     gitlink: 'https://github.com/Jeffersonchive/BearWatch-WP-Theme'
   },

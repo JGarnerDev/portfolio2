@@ -42,6 +42,7 @@
 .box {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
     width: 100%;
     padding-bottom: 20px;
@@ -63,7 +64,7 @@
     min-height: 30px;
     width: 90%;
     font-size: calc(1.5vh + 0.2vw);
-    margin: 5px;
+    margin: 5px 5px 20px 5px;
 }
 
 .selected {
